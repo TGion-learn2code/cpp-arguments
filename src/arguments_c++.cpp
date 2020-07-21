@@ -35,7 +35,7 @@ int main(int argc, const char* argv[]) {
 	else {
 		std::cout << "Number of total arguments given: " << (argc - 1) << std::endl;
 
-		for (int i=1; i<argc; i++) {
+		for (int i = 1; i < argc; i++) {
 			std::cout << "Argument #" << i << " : " << argv[i] << std::endl;
 		}
 
